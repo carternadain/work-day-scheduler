@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  img {
+    height: 20px;
+    width: 20px;
+    align-content: center;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px !important;
+  }
+  
+  .past textarea {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present textarea {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future textarea {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0cf;
+    background-image: url(../images/save.svg);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+    
+  }
+  
+  .saveBtn:hover {
+    background-size: 32px;
+    outline: none;
+  }
