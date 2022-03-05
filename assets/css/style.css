@@ -3,13 +3,14 @@ body {
     font-size: 16px;
     line-height: 1;
   }
-  
+  /*image size and alignment*/
   img {
     height: 20px;
     width: 20px;
     align-content: center;
   }
   
+  /* Styling for scheduling slots */
   textarea {
     background: transparent;
     border: none;
@@ -22,6 +23,7 @@ body {
     height: 100%;
   }
   
+  /* Header styling */
   .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -69,6 +71,7 @@ body {
     color: white;
   }
   
+  /* save button styling */
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
@@ -86,6 +89,8 @@ body {
     
   }
   
+
+  /* Hover effect on savebtn */
   .saveBtn:hover {
     background-size: 32px;
     outline: none;
