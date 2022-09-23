@@ -4,7 +4,8 @@
 # Description 
 This repository encapsulates code created schedule out your work week or just help you plan your schedule.
 
-
+# Technology 
+`Html` , `Javascript ` , `CSS` , `Bootstrap`
 
 # Screenshot of application in use
 ![Screen Shot of the App in use](/assets/images/front-page.png)
